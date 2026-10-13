@@ -1,0 +1,669 @@
+{
+    "evaluation": {
+        "description": "PECA RAG grounded answer evaluation",
+        "total_questions": 15,
+        "passed_questions": 9,
+        "failed_questions": 6,
+        "section_accuracy_percent": 100.0,
+        "average_concept_coverage_percent": 79.57,
+        "answer_accuracy_percent": 85.7,
+        "target_accuracy_percent": 95.0,
+        "status": "BELOW TARGET",
+        "average_response_time_seconds": 3.8608,
+        "average_retrieval_time_seconds": 0.0602,
+        "average_generation_time_seconds": 3.8006,
+        "top_k": 3,
+        "section_weight_percent": 30.0,
+        "concept_weight_percent": 70.0,
+        "results": [
+            {
+                "question_number": 1,
+                "question": "What is cyber stalking under PECA?",
+                "retrieval_query": "What is cyber stalking under PECA?",
+                "expected_section": "24",
+                "retrieved_sections": [
+                    "24",
+                    "22C"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "cyber stalking",
+                    "coerce",
+                    "intimidate",
+                    "harass",
+                    "information system",
+                    "internet",
+                    "electronic mail",
+                    "repeatedly",
+                    "clear indication of disinterest",
+                    "monitor",
+                    "electronic communication",
+                    "watch",
+                    "spy",
+                    "fear",
+                    "alarm",
+                    "distress",
+                    "photograph",
+                    "video",
+                    "without consent"
+                ],
+                "matched_concepts": [
+                    "cyber stalking",
+                    "coerce",
+                    "intimidate",
+                    "harass",
+                    "information system",
+                    "internet",
+                    "electronic mail",
+                    "repeatedly",
+                    "clear indication of disinterest",
+                    "monitor",
+                    "electronic communication",
+                    "watch",
+                    "spy",
+                    "fear",
+                    "alarm",
+                    "distress",
+                    "photograph",
+                    "video"
+                ],
+                "missing_concepts": [
+                    "without consent"
+                ],
+                "concept_coverage_percent": 94.74,
+                "answer_accuracy_percent": 96.32,
+                "target_accuracy_percent": 95.0,
+                "passed": true,
+                "generated_answer": "According to Section 24 of the retrieved documents (Page 24), a person commits the offence of **cyber stalking** who, with the intent to coerce, intimidate, or harass any person, uses an information system, information system network, the Internet, website, electronic mail, or any other similar means of communication to:\n\n(a) Follow a person, or contact or attempt to contact such person to foster personal interaction repeatedly despite a clear indication of disinterest by such person;\n(b) Monitor the use by a person of the internet, electronic mail, text message, or any other form of electronic communication;\n(c) Watch or spy upon a person in a manner that results in fear of violence or serious alarm or distress in the mind of such person; or\n(d) Take a photograph or make a video of any person and display or distribute it without their consent in a manner that harms a person.",
+                "retrieval_time_seconds": 0.365,
+                "generation_time_seconds": 4.5596,
+                "response_time_seconds": 4.9246
+            },
+            {
+                "question_number": 2,
+                "question": "What is cyber terrorism under PECA?",
+                "retrieval_query": "What is cyber terrorism under PECA?",
+                "expected_section": "10",
+                "retrieved_sections": [
+                    "10",
+                    "24"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "cyber terrorism",
+                    "sections 6, 7, 8 or 9",
+                    "coerce",
+                    "intimidate",
+                    "fear",
+                    "panic",
+                    "insecurity",
+                    "government",
+                    "public",
+                    "interfaith",
+                    "sectarian",
+                    "ethnic hatred",
+                    "proscribed organizations"
+                ],
+                "matched_concepts": [
+                    "cyber terrorism",
+                    "sections 6, 7, 8 or 9",
+                    "coerce",
+                    "intimidate",
+                    "fear",
+                    "panic",
+                    "insecurity",
+                    "government",
+                    "public",
+                    "sectarian",
+                    "ethnic hatred"
+                ],
+                "missing_concepts": [
+                    "interfaith",
+                    "proscribed organizations"
+                ],
+                "concept_coverage_percent": 84.62,
+                "answer_accuracy_percent": 89.23,
+                "target_accuracy_percent": 95.0,
+                "passed": false,
+                "generated_answer": "According to Section 10 (Cyber terrorism) of the retrieved documents (Source: Unknown, Page 20), cyber terrorism is defined as the act of whoever commits or threatens to commit any of the offences under sections 6, 7, 8, or 9, where the commission or threat is made with the intent to:\n\n(a) coerce, intimidate, create a sense of fear, panic, or insecurity in the Government or the public or a section of the public or community or sect or create a sense of fear or insecurity in society; or\n(b) advance inter-faith, sectarian, or ethnic hatred; or\n(c) advance the objectives of organizations or individuals or groups proscribed under the law.\n\n**Punishment:** \nWhoever commits cyber terrorism shall be punished with imprisonment of either description for a term which may extend to fourteen years, or with a fine which may extend to fifty million rupees, or with both.",
+                "retrieval_time_seconds": 0.0472,
+                "generation_time_seconds": 4.2068,
+                "response_time_seconds": 4.254
+            },
+            {
+                "question_number": 3,
+                "question": "What is unauthorized access to information system?",
+                "retrieval_query": "What is unauthorized access to information system?",
+                "expected_section": "3",
+                "retrieved_sections": [
+                    "2",
+                    "3"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "unauthorized access",
+                    "information system",
+                    "data",
+                    "dishonest intention",
+                    "gains unauthorized access",
+                    "three months",
+                    "fifty thousand rupees"
+                ],
+                "matched_concepts": [
+                    "unauthorized access",
+                    "information system",
+                    "data",
+                    "dishonest intention",
+                    "gains unauthorized access",
+                    "three months",
+                    "fifty thousand rupees"
+                ],
+                "missing_concepts": [],
+                "concept_coverage_percent": 100.0,
+                "answer_accuracy_percent": 100.0,
+                "target_accuracy_percent": 95.0,
+                "passed": true,
+                "generated_answer": "Based on the retrieved documents:\n\n* **Definition:** According to section 2, sub-section (1)(iii), **“access to information system”** means \"gaining control or ability to use any part or whole of an information system whether or not through infringing any security measure\" (Source: Document 1 and Document 2, Page 7, Section 2).\n* **Legal Provision & Punishment:** According to section 3, **\"Unauthorized access to information system or data\"** occurs when \"Whoever with dishonest intention gains unauthorized access to any information system or data\". Such an act shall be punished with imprisonment for a term which may extend to three months or with fine which may extend to fifty thousand rupees or with both (Source: Document 3, Section 3).",
+                "retrieval_time_seconds": 0.0325,
+                "generation_time_seconds": 4.9844,
+                "response_time_seconds": 5.0169
+            },
+            {
+                "question_number": 4,
+                "question": "What is unauthorized copying or transmission of data?",
+                "retrieval_query": "What is unauthorized copying or transmission of data?",
+                "expected_section": "4",
+                "retrieved_sections": [
+                    "4",
+                    "7"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "unauthorized copying",
+                    "transmission of data",
+                    "dishonest intention",
+                    "without authorization",
+                    "copies",
+                    "transmits",
+                    "six months",
+                    "one hundred thousand rupees"
+                ],
+                "matched_concepts": [
+                    "unauthorized copying",
+                    "transmission of data",
+                    "dishonest intention",
+                    "without authorization",
+                    "copies",
+                    "transmits",
+                    "six months",
+                    "one hundred thousand rupees"
+                ],
+                "missing_concepts": [],
+                "concept_coverage_percent": 100.0,
+                "answer_accuracy_percent": 100.0,
+                "target_accuracy_percent": 95.0,
+                "passed": true,
+                "generated_answer": "Based on the retrieved documents (Section 4), unauthorized copying or transmission of data is defined as:\n\nWhoever with dishonest intention and without authorization copies or otherwise transmits or causes to be transmitted any data. \n\n**Punishment/Legal Provision:** Under Section 4, this offense is punishable with imprisonment for a term which may extend to six months, or with a fine which may extend to one hundred thousand rupees, or with both.",
+                "retrieval_time_seconds": 0.052,
+                "generation_time_seconds": 4.2884,
+                "response_time_seconds": 4.3404
+            },
+            {
+                "question_number": 5,
+                "question": "What is interference with information system or data?",
+                "retrieval_query": "What is interference with information system or data?",
+                "expected_section": "5",
+                "retrieved_sections": [
+                    "5",
+                    "8"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "interference",
+                    "information system",
+                    "data",
+                    "dishonest intention",
+                    "damages",
+                    "without authorization",
+                    "two years",
+                    "five hundred thousand rupees"
+                ],
+                "matched_concepts": [
+                    "interference",
+                    "information system",
+                    "data",
+                    "dishonest intention",
+                    "damages",
+                    "two years",
+                    "five hundred thousand rupees"
+                ],
+                "missing_concepts": [
+                    "without authorization"
+                ],
+                "concept_coverage_percent": 87.5,
+                "answer_accuracy_percent": 91.25,
+                "target_accuracy_percent": 95.0,
+                "passed": false,
+                "generated_answer": "Based on Section 5 of the retrieved documents, interference with an information system or data is defined as follows:\n\nWhoever with dishonest intention interferes with or damages or causes to be interfered with or damages any part or whole of an information system or data shall be punished with imprisonment which may extend to two years or with fine which may extend to five hundred thousand rupees or with both.",
+                "retrieval_time_seconds": 0.034,
+                "generation_time_seconds": 3.4265,
+                "response_time_seconds": 3.4604
+            },
+            {
+                "question_number": 6,
+                "question": "What is electronic forgery?",
+                "retrieval_query": "What is electronic forgery?",
+                "expected_section": "13",
+                "retrieved_sections": [
+                    "13",
+                    "2"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "electronic forgery",
+                    "information system",
+                    "device",
+                    "data",
+                    "damage",
+                    "injury",
+                    "illegal claim",
+                    "illegal title",
+                    "fraud",
+                    "input",
+                    "alteration",
+                    "deletion",
+                    "suppression",
+                    "unauthentic data",
+                    "authentic",
+                    "three years",
+                    "two hundred and fifty thousand rupees"
+                ],
+                "matched_concepts": [
+                    "electronic forgery",
+                    "information system",
+                    "device",
+                    "data",
+                    "damage",
+                    "injury",
+                    "illegal claim",
+                    "fraud",
+                    "input",
+                    "alteration",
+                    "deletion",
+                    "suppression",
+                    "unauthentic data",
+                    "authentic",
+                    "three years",
+                    "two hundred and fifty thousand rupees"
+                ],
+                "missing_concepts": [
+                    "illegal title"
+                ],
+                "concept_coverage_percent": 94.12,
+                "answer_accuracy_percent": 95.88,
+                "target_accuracy_percent": 95.0,
+                "passed": true,
+                "generated_answer": "Based on Section 13 (Electronic forgery) of the retrieved documents, electronic forgery is defined as follows:\n\nWhoever interferes with or uses any information system, device, or data, with the intent to:\n* Cause damage or injury to the public or to any person;\n* Make any illegal claim or title;\n* Cause any person to part with property or to enter into any express or implied contract; or\n* Commit fraud by any input, alteration, deletion, or suppression of data, resulting in unauthentic data with the intent that it be considered or acted upon for legal purposes as if it were authentic, regardless of whether the data is directly readable and intelligible or not.\n\n**Punishment:**\n* Under sub-section (1), it is punishable with imprisonment of either description for a term extending up to three years, a fine extending up to two hundred and fifty thousand rupees, or both.\n* Under sub-section (2), if the offense is committed in relation to a critical infrastructure information system or data, it is punishable with imprisonment for a term extending up to seven years, a fine extending up to five million rupees, or both.\n\n*(Source: Unknown, Section 13)*",
+                "retrieval_time_seconds": 0.0345,
+                "generation_time_seconds": 3.8361,
+                "response_time_seconds": 3.8707
+            },
+            {
+                "question_number": 7,
+                "question": "What is electronic fraud?",
+                "retrieval_query": "What is electronic fraud?",
+                "expected_section": "14",
+                "retrieved_sections": [
+                    "14",
+                    "13"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "electronic fraud",
+                    "wrongful gain",
+                    "information system",
+                    "device",
+                    "data",
+                    "induces",
+                    "deceives",
+                    "damage",
+                    "harm",
+                    "two years",
+                    "ten million rupees"
+                ],
+                "matched_concepts": [
+                    "electronic fraud",
+                    "wrongful gain",
+                    "information system",
+                    "device",
+                    "data",
+                    "induces",
+                    "deceives",
+                    "damage",
+                    "harm",
+                    "two years",
+                    "ten million rupees"
+                ],
+                "missing_concepts": [],
+                "concept_coverage_percent": 100.0,
+                "answer_accuracy_percent": 100.0,
+                "target_accuracy_percent": 95.0,
+                "passed": true,
+                "generated_answer": "Based on Section 14 (Electronic fraud) of the retrieved documents, electronic fraud is defined as an act where someone, with the intent for wrongful gain, interferes with or uses any information system, device, or data, or induces any person to enter into a relationship, or deceives any person, which act or omission is likely to cause damage or harm to that person or any other person. \n\n**Punishment:** \nImprisonment for a term which may extend to two years, or with a fine which may extend to ten million rupees, or with both.",
+                "retrieval_time_seconds": 0.0305,
+                "generation_time_seconds": 3.5848,
+                "response_time_seconds": 3.6153
+            },
+            {
+                "question_number": 8,
+                "question": "What is identity information?",
+                "retrieval_query": "identity information definition authenticate identify individual information system enable access data",
+                "expected_section": "2",
+                "retrieved_sections": [
+                    "2",
+                    "35"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "identity information"
+                ],
+                "matched_concepts": [],
+                "missing_concepts": [
+                    "identity information"
+                ],
+                "concept_coverage_percent": 0.0,
+                "answer_accuracy_percent": 30.0,
+                "target_accuracy_percent": 95.0,
+                "passed": false,
+                "generated_answer": "The uploaded document does not contain enough information to answer this question.",
+                "retrieval_time_seconds": 0.049,
+                "generation_time_seconds": 3.0963,
+                "response_time_seconds": 3.1453
+            },
+            {
+                "question_number": 9,
+                "question": "What is unauthorized use of identity information?",
+                "retrieval_query": "What is unauthorized use of identity information?",
+                "expected_section": "16",
+                "retrieved_sections": [
+                    "16",
+                    "2"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "identity information",
+                    "obtains",
+                    "sells",
+                    "possesses",
+                    "transmits",
+                    "uses",
+                    "another person's",
+                    "without authorization",
+                    "three years",
+                    "five million rupees"
+                ],
+                "matched_concepts": [
+                    "identity information",
+                    "obtains",
+                    "sells",
+                    "possesses",
+                    "transmits",
+                    "uses",
+                    "another person's",
+                    "without authorization",
+                    "three years",
+                    "five million rupees"
+                ],
+                "missing_concepts": [],
+                "concept_coverage_percent": 100.0,
+                "answer_accuracy_percent": 100.0,
+                "target_accuracy_percent": 95.0,
+                "passed": true,
+                "generated_answer": "According to Section 16 of the retrieved documents, unauthorized use of identity information refers to when anyone obtains, sells, possesses, transmits, or uses another person’s identity information without authorization. \n\n**Punishment/Legal Provision:**\nUnder Section 16(1), whoever commits this offense shall be punished with imprisonment for a term which may extend to three years, or with a fine which may extend to five million rupees, or with both.\n\n**Remedy:**\nUnder Section 16(2), any person whose identity information is obtained, sold, possessed, used, or transmitted may apply to the Authority for securing, destroying, blocking access, or preventing the transmission of such information.\n\nSource: Page 21 of 39 (Section 16).",
+                "retrieval_time_seconds": 0.0361,
+                "generation_time_seconds": 3.5545,
+                "response_time_seconds": 3.5907
+            },
+            {
+                "question_number": 10,
+                "question": "What is spoofing under PECA?",
+                "retrieval_query": "What is spoofing under PECA?",
+                "expected_section": "26",
+                "retrieved_sections": [
+                    "26",
+                    "19"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "spoofing",
+                    "dishonest intention",
+                    "website",
+                    "sends information",
+                    "counterfeit source",
+                    "authentic source",
+                    "three years",
+                    "five hundred thousand rupees"
+                ],
+                "matched_concepts": [
+                    "spoofing",
+                    "dishonest intention",
+                    "website",
+                    "counterfeit source",
+                    "authentic source"
+                ],
+                "missing_concepts": [
+                    "sends information",
+                    "three years",
+                    "five hundred thousand rupees"
+                ],
+                "concept_coverage_percent": 62.5,
+                "answer_accuracy_percent": 73.75,
+                "target_accuracy_percent": 95.0,
+                "passed": false,
+                "generated_answer": "According to Section 26(1) of the document, **Spoofing** is defined as follows:\n\nWhoever with dishonest intention establishes a website or sends any information with a counterfeit source intended to be believed by the recipient or visitor of the website, to be an authentic source commits spoofing.",
+                "retrieval_time_seconds": 0.0301,
+                "generation_time_seconds": 3.2363,
+                "response_time_seconds": 3.2664
+            },
+            {
+                "question_number": 11,
+                "question": "What is spamming under PECA?",
+                "retrieval_query": "What is spamming under PECA?",
+                "expected_section": "25",
+                "retrieved_sections": [
+                    "25",
+                    "14"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "spamming",
+                    "harmful",
+                    "fraudulent",
+                    "misleading",
+                    "illegal",
+                    "unsolicited information",
+                    "without permission",
+                    "wrongful gain",
+                    "unsubscribe",
+                    "direct marketing"
+                ],
+                "matched_concepts": [
+                    "spamming",
+                    "harmful",
+                    "fraudulent",
+                    "misleading",
+                    "illegal",
+                    "unsolicited information",
+                    "wrongful gain"
+                ],
+                "missing_concepts": [
+                    "without permission",
+                    "unsubscribe",
+                    "direct marketing"
+                ],
+                "concept_coverage_percent": 70.0,
+                "answer_accuracy_percent": 79.0,
+                "target_accuracy_percent": 95.0,
+                "passed": false,
+                "generated_answer": "Based on Section 25 (Spamming) of the retrieved documents (Page 25):\n\n**Definition:** \nA person commits the offence of spamming who, with intent, transmits harmful, fraudulent, misleading, illegal, or unsolicited information to any person without the permission of the recipient, or who causes any information system to show any such information for wrongful gain.",
+                "retrieval_time_seconds": 0.0386,
+                "generation_time_seconds": 3.4423,
+                "response_time_seconds": 3.4809
+            },
+            {
+                "question_number": 12,
+                "question": "What is cyber harassment under PECA?",
+                "retrieval_query": "What is cyber harassment under PECA?",
+                "expected_section": "24",
+                "retrieved_sections": [
+                    "24",
+                    "10"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "cyber stalking",
+                    "harass",
+                    "repeatedly",
+                    "clear indication of disinterest",
+                    "monitor",
+                    "electronic communication",
+                    "watch",
+                    "spy",
+                    "fear",
+                    "alarm",
+                    "distress"
+                ],
+                "matched_concepts": [],
+                "missing_concepts": [
+                    "cyber stalking",
+                    "harass",
+                    "repeatedly",
+                    "clear indication of disinterest",
+                    "monitor",
+                    "electronic communication",
+                    "watch",
+                    "spy",
+                    "fear",
+                    "alarm",
+                    "distress"
+                ],
+                "concept_coverage_percent": 0.0,
+                "answer_accuracy_percent": 30.0,
+                "target_accuracy_percent": 95.0,
+                "passed": false,
+                "generated_answer": "The uploaded document does not contain enough information to answer this question.",
+                "retrieval_time_seconds": 0.0357,
+                "generation_time_seconds": 4.5958,
+                "response_time_seconds": 4.6315
+            },
+            {
+                "question_number": 13,
+                "question": "What is the punishment for cyber terrorism?",
+                "retrieval_query": "What is the punishment for cyber terrorism?",
+                "expected_section": "10",
+                "retrieved_sections": [
+                    "10",
+                    "12"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "cyber terrorism",
+                    "imprisonment",
+                    "fourteen years",
+                    "fifty million rupees",
+                    "fine"
+                ],
+                "matched_concepts": [
+                    "cyber terrorism",
+                    "imprisonment",
+                    "fourteen years",
+                    "fifty million rupees",
+                    "fine"
+                ],
+                "missing_concepts": [],
+                "concept_coverage_percent": 100.0,
+                "answer_accuracy_percent": 100.0,
+                "target_accuracy_percent": 95.0,
+                "passed": true,
+                "generated_answer": "Based on Section 10 (Cyber terrorism) of the retrieved document, whoever commits or threatens to commit cyber terrorism shall be punished with imprisonment of either description for a term which may extend to fourteen years or with fine which may extend to fifty million rupees or with both. \n\n*(Source: Page 20)*",
+                "retrieval_time_seconds": 0.0286,
+                "generation_time_seconds": 3.32,
+                "response_time_seconds": 3.3487
+            },
+            {
+                "question_number": 14,
+                "question": "What is the punishment for electronic fraud?",
+                "retrieval_query": "What is the punishment for electronic fraud?",
+                "expected_section": "14",
+                "retrieved_sections": [
+                    "14",
+                    "3"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "electronic fraud",
+                    "imprisonment",
+                    "two years",
+                    "ten million rupees",
+                    "fine"
+                ],
+                "matched_concepts": [
+                    "electronic fraud",
+                    "imprisonment",
+                    "two years",
+                    "ten million rupees",
+                    "fine"
+                ],
+                "missing_concepts": [],
+                "concept_coverage_percent": 100.0,
+                "answer_accuracy_percent": 100.0,
+                "target_accuracy_percent": 95.0,
+                "passed": true,
+                "generated_answer": "Based on Section 14 (Electronic fraud) of the retrieved document, whoever commits electronic fraud with the intent for wrongful gain shall be punished with imprisonment for a term which may extend to two years, or with a fine which may extend to ten million rupees, or with both.",
+                "retrieval_time_seconds": 0.0379,
+                "generation_time_seconds": 3.3815,
+                "response_time_seconds": 3.4194
+            },
+            {
+                "question_number": 15,
+                "question": "What is the punishment for cyber stalking?",
+                "retrieval_query": "What is the punishment for cyber stalking?",
+                "expected_section": "24",
+                "retrieved_sections": [
+                    "24",
+                    "3"
+                ],
+                "section_correct": true,
+                "key_concepts": [
+                    "cyber stalking",
+                    "imprisonment",
+                    "three years",
+                    "one million rupees",
+                    "fine",
+                    "minor",
+                    "five years",
+                    "ten million rupees"
+                ],
+                "matched_concepts": [
+                    "cyber stalking",
+                    "imprisonment",
+                    "three years",
+                    "one million rupees",
+                    "fine",
+                    "minor",
+                    "five years",
+                    "ten million rupees"
+                ],
+                "missing_concepts": [],
+                "concept_coverage_percent": 100.0,
+                "answer_accuracy_percent": 100.0,
+                "target_accuracy_percent": 95.0,
+                "passed": true,
+                "generated_answer": "Based on Section 24(2) of the retrieved documents (Source: Unknown, Page 24):\n\nWhoever commits the offence of cyber stalking shall be punished with imprisonment for a term which may extend to three years or with fine which may extend to one million rupees or with both. \n\nHowever, if the victim of the cyber stalking is a minor, the punishment may extend to five years or with a fine which may extend to ten million rupees or with both.",
+                "retrieval_time_seconds": 0.051,
+                "generation_time_seconds": 3.4955,
+                "response_time_seconds": 3.5466
+            }
+        ]
+    }
+}

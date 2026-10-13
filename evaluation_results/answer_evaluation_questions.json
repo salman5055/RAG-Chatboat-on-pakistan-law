@@ -1,0 +1,92 @@
+[
+  {
+    "question_number": 1,
+    "question": "What is cyber stalking under PECA?",
+    "expected_section": "24",
+    "reference_answer": "Under Section 24 of PECA, cyber stalking includes repeatedly contacting a person despite clear disinterest, monitoring a person's use of the internet, email or other forms of electronic communication, watching or spying on a person in a manner that causes fear or distress, and taking or distributing a photograph or video of a person without consent in circumstances covered by the section."
+  },
+  {
+    "question_number": 2,
+    "question": "What is cyber terrorism under PECA?",
+    "expected_section": "10",
+    "reference_answer": "Cyber terrorism is an offence under Section 10 of PECA involving the use of an information system or device for acts specified by the section, including actions intended to create a sense of fear, panic or insecurity in the public or damage critical information infrastructure."
+  },
+  {
+    "question_number": 3,
+    "question": "What is unauthorized access to information system?",
+    "expected_section": "3",
+    "reference_answer": "Section 3 of PECA deals with unauthorized access to an information system. A person commits the offence when the person intentionally gains unauthorized access to the whole or any part of an information system."
+  },
+  {
+    "question_number": 4,
+    "question": "What is unauthorized copying or transmission of data?",
+    "expected_section": "4",
+    "reference_answer": "Section 4 of PECA deals with unauthorized copying or transmission of data. It covers intentionally obtaining, copying or transmitting data without authorization or exceeding authorized access, as provided by the section."
+  },
+  {
+    "question_number": 5,
+    "question": "What is interference with information system or data?",
+    "expected_section": "5",
+    "reference_answer": "Section 5 of PECA deals with interference with an information system or data. It covers intentionally interfering with or damaging an information system or data without authorization."
+  },
+  {
+    "question_number": 6,
+    "question": "What is electronic forgery?",
+    "expected_section": "13",
+    "reference_answer": "Section 13 of PECA deals with electronic forgery. It covers making a false or counterfeit electronic document or data with the intention that it be considered authentic or relied upon as genuine."
+  },
+  {
+    "question_number": 7,
+    "question": "What is electronic fraud?",
+    "expected_section": "14",
+    "reference_answer": "Section 14 of PECA deals with electronic fraud. It covers intentionally using an information system, device or electronic means to obtain a gain or cause a loss through fraudulent or deceptive conduct."
+  },
+  {
+    "question_number": 8,
+    "question": "What is identity information?",
+    "expected_section": "16",
+    "reference_answer": "Identity information refers to information that identifies or can be used to identify a person, as defined under PECA."
+  },
+  {
+    "question_number": 9,
+    "question": "What is unauthorized use of identity information?",
+    "expected_section": "16",
+    "reference_answer": "Section 16 of PECA deals with unauthorized use of identity information. It covers obtaining, selling, possessing, transmitting or using another person's identity information without authorization in the circumstances specified by the section."
+  },
+  {
+    "question_number": 10,
+    "question": "What is spoofing under PECA?",
+    "expected_section": "26",
+    "reference_answer": "Section 26 of PECA deals with spoofing. It covers establishing a website or sending information with a counterfeit source with the intention of causing harm, injury, wrongful gain or deception."
+  },
+  {
+    "question_number": 11,
+    "question": "What is spamming under PECA?",
+    "expected_section": "25",
+    "reference_answer": "Section 25 of PECA deals with spamming. It covers transmitting harmful, fraudulent, misleading or unsolicited information through an information system in the circumstances specified by the section."
+  },
+  {
+    "question_number": 12,
+    "question": "What is cyber harassment under PECA?",
+    "expected_section": "24",
+    "reference_answer": "Cyber harassment is addressed under Section 24 of PECA through the offence of cyber stalking. It includes conduct such as repeatedly contacting a person despite disinterest, monitoring electronic communication, or watching or spying in a manner that causes fear or distress."
+  },
+  {
+    "question_number": 13,
+    "question": "What is the punishment for cyber terrorism?",
+    "expected_section": "10",
+    "reference_answer": "Section 10 of PECA provides punishment for cyber terrorism, including imprisonment and fine as specified in the section."
+  },
+  {
+    "question_number": 14,
+    "question": "What is the punishment for electronic fraud?",
+    "expected_section": "14",
+    "reference_answer": "Section 14 of PECA provides punishment for electronic fraud, including imprisonment and fine as specified in the section."
+  },
+  {
+    "question_number": 15,
+    "question": "What is the punishment for cyber stalking?",
+    "expected_section": "24",
+    "reference_answer": "Section 24 of PECA provides punishment for cyber stalking, including imprisonment and fine as specified in the section."
+  }
+]

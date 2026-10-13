@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+.env
+.ipynb_checkpoints/
+*.pyc
+.vscode/
+
+vectorstores/uploaded/
+data/uploads/vectorstore/
+vectorstore/

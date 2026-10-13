@@ -1,0 +1,248 @@
+[
+    {
+        "question_number": 1,
+        "question": "What is cyber stalking under PECA?",
+        "expected_section": "24",
+        "key_concepts": [
+            "cyber stalking",
+            "coerce",
+            "intimidate",
+            "harass",
+            "information system",
+            "internet",
+            "electronic mail",
+            "repeatedly",
+            "clear indication of disinterest",
+            "monitor",
+            "electronic communication",
+            "watch",
+            "spy",
+            "fear",
+            "alarm",
+            "distress",
+            "photograph",
+            "video",
+            "without consent"
+        ]
+    },
+    {
+        "question_number": 2,
+        "question": "What is cyber terrorism under PECA?",
+        "expected_section": "10",
+        "key_concepts": [
+            "cyber terrorism",
+            "sections 6, 7, 8 or 9",
+            "coerce",
+            "intimidate",
+            "fear",
+            "panic",
+            "insecurity",
+            "government",
+            "public",
+            "interfaith",
+            "sectarian",
+            "ethnic hatred",
+            "proscribed organizations"
+        ]
+    },
+    {
+        "question_number": 3,
+        "question": "What is unauthorized access to information system?",
+        "expected_section": "3",
+        "key_concepts": [
+            "unauthorized access",
+            "information system",
+            "data",
+            "dishonest intention",
+            "gains unauthorized access",
+            "three months",
+            "fifty thousand rupees"
+        ]
+    },
+    {
+        "question_number": 4,
+        "question": "What is unauthorized copying or transmission of data?",
+        "expected_section": "4",
+        "key_concepts": [
+            "unauthorized copying",
+            "transmission of data",
+            "dishonest intention",
+            "without authorization",
+            "copies",
+            "transmits",
+            "six months",
+            "one hundred thousand rupees"
+        ]
+    },
+    {
+        "question_number": 5,
+        "question": "What is interference with information system or data?",
+        "expected_section": "5",
+        "key_concepts": [
+            "interference",
+            "information system",
+            "data",
+            "dishonest intention",
+            "damages",
+            "without authorization",
+            "two years",
+            "five hundred thousand rupees"
+        ]
+    },
+    {
+        "question_number": 6,
+        "question": "What is electronic forgery?",
+        "expected_section": "13",
+        "key_concepts": [
+            "electronic forgery",
+            "information system",
+            "device",
+            "data",
+            "damage",
+            "injury",
+            "illegal claim",
+            "illegal title",
+            "fraud",
+            "input",
+            "alteration",
+            "deletion",
+            "suppression",
+            "unauthentic data",
+            "authentic",
+            "three years",
+            "two hundred and fifty thousand rupees"
+        ]
+    },
+    {
+        "question_number": 7,
+        "question": "What is electronic fraud?",
+        "expected_section": "14",
+        "key_concepts": [
+            "electronic fraud",
+            "wrongful gain",
+            "information system",
+            "device",
+            "data",
+            "induces",
+            "deceives",
+            "damage",
+            "harm",
+            "two years",
+            "ten million rupees"
+        ]
+    },
+    {
+        "question_number": 8,
+        "question": "What is identity information?",
+        "expected_section": "2",
+        "key_concepts": [
+            "identity information"
+        ]
+    },
+    {
+        "question_number": 9,
+        "question": "What is unauthorized use of identity information?",
+        "expected_section": "16",
+        "key_concepts": [
+            "identity information",
+            "obtains",
+            "sells",
+            "possesses",
+            "transmits",
+            "uses",
+            "another person's",
+            "without authorization",
+            "three years",
+            "five million rupees"
+        ]
+    },
+    {
+        "question_number": 10,
+        "question": "What is spoofing under PECA?",
+        "expected_section": "26",
+        "key_concepts": [
+            "spoofing",
+            "dishonest intention",
+            "website",
+            "sends information",
+            "counterfeit source",
+            "authentic source",
+            "three years",
+            "five hundred thousand rupees"
+        ]
+    },
+    {
+        "question_number": 11,
+        "question": "What is spamming under PECA?",
+        "expected_section": "25",
+        "key_concepts": [
+            "spamming",
+            "harmful",
+            "fraudulent",
+            "misleading",
+            "illegal",
+            "unsolicited information",
+            "without permission",
+            "wrongful gain",
+            "unsubscribe",
+            "direct marketing"
+        ]
+    },
+    {
+        "question_number": 12,
+        "question": "What is cyber harassment under PECA?",
+        "expected_section": "24",
+        "key_concepts": [
+            "cyber stalking",
+            "harass",
+            "repeatedly",
+            "clear indication of disinterest",
+            "monitor",
+            "electronic communication",
+            "watch",
+            "spy",
+            "fear",
+            "alarm",
+            "distress"
+        ]
+    },
+    {
+        "question_number": 13,
+        "question": "What is the punishment for cyber terrorism?",
+        "expected_section": "10",
+        "key_concepts": [
+            "cyber terrorism",
+            "imprisonment",
+            "fourteen years",
+            "fifty million rupees",
+            "fine"
+        ]
+    },
+    {
+        "question_number": 14,
+        "question": "What is the punishment for electronic fraud?",
+        "expected_section": "14",
+        "key_concepts": [
+            "electronic fraud",
+            "imprisonment",
+            "two years",
+            "ten million rupees",
+            "fine"
+        ]
+    },
+    {
+        "question_number": 15,
+        "question": "What is the punishment for cyber stalking?",
+        "expected_section": "24",
+        "key_concepts": [
+            "cyber stalking",
+            "imprisonment",
+            "three years",
+            "one million rupees",
+            "fine",
+            "minor",
+            "five years",
+            "ten million rupees"
+        ]
+    }
+]

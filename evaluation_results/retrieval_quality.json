@@ -1,0 +1,219 @@
+{
+    "total_questions": 15,
+    "top1_accuracy": 93.33,
+    "top3_accuracy": 100.0,
+    "mrr": 0.9556,
+    "average_retrieval_time_seconds": 0.0916,
+    "results": [
+        {
+            "question_number": 1,
+            "question": "What is cyber stalking under PECA?",
+            "expected_section": "24",
+            "retrieved_sections": [
+                "24",
+                "24",
+                "22C"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.6876
+        },
+        {
+            "question_number": 2,
+            "question": "What is cyber terrorism under PECA?",
+            "expected_section": "10",
+            "retrieved_sections": [
+                "10",
+                "10",
+                "24"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.0296
+        },
+        {
+            "question_number": 3,
+            "question": "What is unauthorized access to information system?",
+            "expected_section": "3",
+            "retrieved_sections": [
+                "2",
+                "2",
+                "3"
+            ],
+            "top1_correct": false,
+            "top3_correct": true,
+            "reciprocal_rank": 0.3333,
+            "retrieval_time_seconds": 0.0332
+        },
+        {
+            "question_number": 4,
+            "question": "What is unauthorized copying or transmission?",
+            "expected_section": "4",
+            "retrieved_sections": [
+                "4",
+                "4",
+                "7"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.0471
+        },
+        {
+            "question_number": 5,
+            "question": "What is interference with information system?",
+            "expected_section": "5",
+            "retrieved_sections": [
+                "5",
+                "5",
+                "8"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.0409
+        },
+        {
+            "question_number": 6,
+            "question": "What is electronic forgery?",
+            "expected_section": "13",
+            "retrieved_sections": [
+                "13",
+                "13",
+                "2"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.0446
+        },
+        {
+            "question_number": 7,
+            "question": "What is electronic fraud?",
+            "expected_section": "14",
+            "retrieved_sections": [
+                "14",
+                "14",
+                "13"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.0325
+        },
+        {
+            "question_number": 8,
+            "question": "What is identity information?",
+            "expected_section": "16",
+            "retrieved_sections": [
+                "16",
+                "16",
+                "27"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.042
+        },
+        {
+            "question_number": 9,
+            "question": "What is unauthorized use of identity information?",
+            "expected_section": "16",
+            "retrieved_sections": [
+                "16",
+                "16",
+                "2"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.0361
+        },
+        {
+            "question_number": 10,
+            "question": "What is spoofing?",
+            "expected_section": "26",
+            "retrieved_sections": [
+                "26",
+                "26",
+                "19"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.0435
+        },
+        {
+            "question_number": 11,
+            "question": "What is spamming?",
+            "expected_section": "25",
+            "retrieved_sections": [
+                "25",
+                "25",
+                "23"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.0376
+        },
+        {
+            "question_number": 12,
+            "question": "What is cyber harassment?",
+            "expected_section": "24",
+            "retrieved_sections": [
+                "24",
+                "24",
+                "10"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.0389
+        },
+        {
+            "question_number": 13,
+            "question": "What is the punishment for cyber terrorism?",
+            "expected_section": "10",
+            "retrieved_sections": [
+                "10",
+                "10",
+                "12"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.0741
+        },
+        {
+            "question_number": 14,
+            "question": "What is the punishment for electronic fraud?",
+            "expected_section": "14",
+            "retrieved_sections": [
+                "14",
+                "14",
+                "3"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.1594
+        },
+        {
+            "question_number": 15,
+            "question": "What is the punishment for cyber stalking?",
+            "expected_section": "24",
+            "retrieved_sections": [
+                "24",
+                "24",
+                "3"
+            ],
+            "top1_correct": true,
+            "top3_correct": true,
+            "reciprocal_rank": 1.0,
+            "retrieval_time_seconds": 0.0275
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "total_questions": 15,
+    "accuracy": 93.33,
+    "precision": 93.33,
+    "recall": 93.33,
+    "f1_score": 93.33,
+    "results": [
+        {
+            "question_number": 1,
+            "question": "What is cyber stalking under PECA?",
+            "expected_section": "24",
+            "predicted_section": "24",
+            "correct": true
+        },
+        {
+            "question_number": 2,
+            "question": "What is cyber terrorism under PECA?",
+            "expected_section": "10",
+            "predicted_section": "10",
+            "correct": true
+        },
+        {
+            "question_number": 3,
+            "question": "What is unauthorized access to information system?",
+            "expected_section": "3",
+            "predicted_section": "2",
+            "correct": false
+        },
+        {
+            "question_number": 4,
+            "question": "What is unauthorized copying or transmission?",
+            "expected_section": "4",
+            "predicted_section": "4",
+            "correct": true
+        },
+        {
+            "question_number": 5,
+            "question": "What is interference with information system?",
+            "expected_section": "5",
+            "predicted_section": "5",
+            "correct": true
+        },
+        {
+            "question_number": 6,
+            "question": "What is electronic forgery?",
+            "expected_section": "13",
+            "predicted_section": "13",
+            "correct": true
+        },
+        {
+            "question_number": 7,
+            "question": "What is electronic fraud?",
+            "expected_section": "14",
+            "predicted_section": "14",
+            "correct": true
+        },
+        {
+            "question_number": 8,
+            "question": "What is identity information?",
+            "expected_section": "16",
+            "predicted_section": "16",
+            "correct": true
+        },
+        {
+            "question_number": 9,
+            "question": "What is unauthorized use of identity information?",
+            "expected_section": "16",
+            "predicted_section": "16",
+            "correct": true
+        },
+        {
+            "question_number": 10,
+            "question": "What is spoofing?",
+            "expected_section": "26",
+            "predicted_section": "26",
+            "correct": true
+        },
+        {
+            "question_number": 11,
+            "question": "What is spamming?",
+            "expected_section": "25",
+            "predicted_section": "25",
+            "correct": true
+        },
+        {
+            "question_number": 12,
+            "question": "What is cyber harassment?",
+            "expected_section": "24",
+            "predicted_section": "24",
+            "correct": true
+        },
+        {
+            "question_number": 13,
+            "question": "What is the punishment for cyber terrorism?",
+            "expected_section": "10",
+            "predicted_section": "10",
+            "correct": true
+        },
+        {
+            "question_number": 14,
+            "question": "What is the punishment for electronic fraud?",
+            "expected_section": "14",
+            "predicted_section": "14",
+            "correct": true
+        },
+        {
+            "question_number": 15,
+            "question": "What is the punishment for cyber stalking?",
+            "expected_section": "24",
+            "predicted_section": "24",
+            "correct": true
+        }
+    ]
+}
